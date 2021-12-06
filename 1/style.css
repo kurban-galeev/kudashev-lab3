@@ -1,0 +1,18 @@
+.initialLog {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categories__category {
+  width: 50%;
+}
+
+.categories__category__logs {
+  max-height: 100px;
+  overflow-y: auto;
+}

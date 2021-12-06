@@ -1,0 +1,14 @@
+.check__result {
+  width: 50px;
+  height: 20px;
+  background-color: gray;
+  margin-top: 20px;  
+}
+
+.check__result.good {
+  background-color: green;
+}
+
+.check__result.bad {
+  background-color: red;
+}
